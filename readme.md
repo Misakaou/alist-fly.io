@@ -1,4 +1,4 @@
-# Alist Binary to Docker
+# Alist on Fly.io
 
 ## Deploy to fly.io
 
