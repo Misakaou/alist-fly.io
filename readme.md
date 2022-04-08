@@ -1,10 +1,14 @@
-# Readme
+# Alist Binary to Docker
 
-## first - create fly app
+## Deploy to fly.io
+
+### first - create fly app
 
 `fly launch`
 
-## second - create fly volume
+### second - create fly volume
+
+> create 1GB volume to persistent storage settings(data)
 
 `flyctl volumes create data --region hkg --size 1`
 
@@ -14,6 +18,6 @@
   destination = "/data"
 ```
 
-## third - deploy app
+### third - deploy app
 
 `fly deploy`
